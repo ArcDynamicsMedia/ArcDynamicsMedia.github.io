@@ -11,6 +11,10 @@
 <link rel="manifest" href="assets/img/site.webmanifest">
 
     <link rel="stylesheet" href="assets/css/global.css">
+
+<!-- Cookie Message -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
 </head>
 
 <body>
@@ -36,6 +40,21 @@
     <p><a href="exercises/hero-image.html">Hero block with background image</a></p>
     <p><a href="exercises/hero-video.html">Hero block with background video</a></p> 
     <!-- Comment here -->
-
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "content": {
+    "href": "https://ArcDynamicsMedia.github.io/privacy.html"
+  }
+});
+</script>
 </body>
 </html>
