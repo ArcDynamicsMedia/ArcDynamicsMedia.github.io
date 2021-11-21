@@ -41,7 +41,7 @@ body {
     z-index: 2; 
 }
 
-x.hero-bg-media {
+.hero-bg-media {
     position: absolute; top: 0; right: 0; bottom: 0; left: 0; 
     z-index: 0;
 }
