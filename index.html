@@ -34,6 +34,7 @@
 
   gtag('config', 'G-KV1TJT6STT');
 </script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 
@@ -139,6 +140,21 @@
 		<p class="privacy"><a href="privacy.html">Privacy &amp; Legal</a></p>
 
 	</footer>
-   
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000"
+        },
+        "button": {
+          "background": "#f1d600"
+        }
+      },
+      "content": {
+        "href": "https://arcdynamicsmedia.github.io/privacy.html"
+      }
+    });
+    </script>
 </body>
 </html>
